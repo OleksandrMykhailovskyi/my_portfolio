@@ -15,6 +15,18 @@ const config: Config = {
       },
     },
   },
+     daisyui: {
+      themes: [
+        {
+          mytheme: {
+            "primary": "#FBEEAC",
+            "secondary": "#F4D160",
+            "neutral": "#75C2F6",
+            "accent": "#1D5D9B",
+          },
+        },
+      ],
+    },
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
